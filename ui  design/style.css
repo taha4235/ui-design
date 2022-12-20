@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.first-section{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(rgb(0,0,0,0.8),rgba(0,0,0,0.5)),url(images/header-image.png)
+}
+.logo{
+    width:200px;
+    height: 70px;
+    margin: 20px;
+}
+.logo-2{
+    width:5px;
+    height: 5px;
+}
+.first-header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.bc{
+    border: none;
+}
+.first-header ul li a{
+    text-decoration: none;
+    color: white;
+   width: 100px;
+   height: 30px;
+   padding: 7px;
+    border: 1px solid white;
+}
+.down{
+    width: 10px;
+
+}
+.first-header{
+    justify-content: space-between;
+    width: 100%;
+}
+.another-info{
+    color:white;
+    font-family: sans-serif;
+}
+.another-info h3{
+    font-size: 50px;
+}
+.another-info p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.p2{
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+form input{
+    width:400px;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 5px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+padding: 12px;
+margin-left:-5px;
+}
+.button span{
+    color: white;
+    font-weight: 300;
+    height: 15px;
+}
+form{
+    margin-top: 40px;
+}
+.another-info{
+    margin-top:130px
+}
+.first-header ul{
+    margin-left: 1150px;
+    margin-top:-70px
+}
+.bc{
+    background-color: red;
+}
+.second-description{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.second-description h3{
+    font-weight: bold;
+    font-size: 50px;
+}
+.first-de{
+    margin-top:200px;
+    margin-left: 20px;
+}
+.first-de p{
+    font-size: 18px;
+}
+.second-description img{
+    margin-left: 90px;
+}
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: darkslategray;
+    outline: none;
+    border: none;
+}
+.active{
+margin-top:120px
+}
+.active-2 img{
+    width:500px;
+    display: flex;
+    margin-left:600px;
+    margin-top:-200px;
+    height:400px;
+}
+.log{
+    width: 300px;
+}
+.active-3{
+    margin-left: 100px;
+margin-bottom: 120px;
+}
+.question_informations{
+    width:100%;
+    height: 100vh;
+}
+.question_informations h3{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.first-div-info{
+    width:500px;
+background-color:gray;
+height: 40px;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+padding: 10px;
+}
+.first-div-info span{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+   text-align: center;
+}
+.first-div-info span{
+    margin-top:-7px
+}
+.all-info{
+    margin-top: 80px;
+}
+.links{
+    width:500px;
+    height: 120px;
+    background-color:gray;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: none;
+}
+.links p{
+    color: white;
+    font-size: 14px;
+}
+.title-5{
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+.container-information-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    height: 200px;
+}
+.container-information-info ul li a{
+    color: silver;
+    text-decoration: none;
+    margin-top: 7px;
+}
+.tit{
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.button-links{
+    width:100px;
+    height: 30px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.button-links img{
+    width: 10px;
+}
